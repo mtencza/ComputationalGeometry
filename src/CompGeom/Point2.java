@@ -1,19 +1,19 @@
 package CompGeom;
 
 public class Point2 {
-    private Integer x;
-    private Integer y;
+    private Double x;
+    private Double y;
 
-    public Point2(Integer x,Integer y){
+    public Point2(Double x,Double y){
         this.x = x;
         this.y = y;
     }
 
-    public Integer getX() {
+    public Double getX() {
         return x;
     }
 
-    public Integer getY() {
+    public Double getY() {
         return y;
     }
 

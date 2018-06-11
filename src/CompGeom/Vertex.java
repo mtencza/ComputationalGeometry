@@ -6,7 +6,7 @@ public class Vertex extends Point2 {
     boolean onHull = false;
 
 
-    public Vertex(Integer x,Integer y) {
+    public Vertex(Double x,Double y) {
         super(x,y);
     }
 

@@ -9,10 +9,10 @@ public class Driver {
 
     public void drive(){
         Polygon p = new Polygon();
-        p.add(new Vertex(0,3));
-        p.add(new Vertex(0,0));
-        p.add(new Vertex(3,0));
-        p.add(new Vertex(3,3));
+        p.add(new Vertex(0.0,3.0));
+        p.add(new Vertex(0.0,0.0));
+        p.add(new Vertex(3.0,0.0));
+        p.add(new Vertex(3.0,3.0));
         double area = Polygon.Area(p);
 
     }
